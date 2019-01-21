@@ -158,6 +158,7 @@ public void ReverseString
   
         // print reversed String 
         System.out.println(input1); 
+// or System.out.println(input1.append(str).reverse());
     } 
 
 @Test
