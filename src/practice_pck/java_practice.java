@@ -161,6 +161,18 @@ public void ReverseString
 // or System.out.println(input1.append(str).reverse());
     } 
 
+//@Test
+public void reversewoloop()
+{
+	System.out.println("Enter string to reverse: ");
+	Scanner scan=new Scanner(System.in);
+	String str=scan.nextLine();
+	scan.close();
+	//String str="Enter string to reverse";
+	StringBuilder sb=new StringBuilder();
+	System.out.println(sb.append(str).reverse());
+}
+
 @Test
 //Find duplicate characters in a string
 
